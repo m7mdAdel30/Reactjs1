@@ -15,4 +15,32 @@ code {
 div h1 , div h2{
   font-size: 20px;
   color: #08574c;
+  text-align: center;
+}
+
+ul{
+  border: 1px solid #08574c;
+  padding: 20px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  transition: .8s;
+  background-color: #825;
+  margin: 0px auto;
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  transition: .8s;
+}
+ul:hover{
+  background-color: #825;
+  box-shadow: 2px 2px 50px rgba(0,0,0);
+}
+a:hover{
+  color: #000;
+  text-shadow: 0px 0px 5px #FFF;
 }
